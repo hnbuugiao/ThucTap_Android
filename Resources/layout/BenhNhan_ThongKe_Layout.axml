@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1">
+    <TextView
+        android:text="Thống Kê"
+        android:textSize="30dip"
+        android:paddingBottom="10dp" />
+    <TableRow>
+        <TextView
+            android:text="STT"
+            android:padding="3dip" />
+        <TextView
+            android:text="Giới tính"
+            android:gravity="center"
+            android:padding="3dip" />
+        <TextView
+            android:text="Số lượng"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="1"
+            android:padding="3dip" />
+        <TextView
+            android:text="Nam"
+            android:gravity="center"
+            android:padding="3dip" />
+        <TextView
+            android:text="Số lượng"
+            android:gravity="right"
+            android:padding="3dip"
+            android:id="@+id/txtSoLuongNam" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="2"
+            android:padding="3dip" />
+        <TextView
+            android:text="Nữ"
+            android:gravity="center"
+            android:padding="3dip" />
+        <TextView
+            android:text="Số lượng"
+            android:gravity="right"
+            android:padding="3dip"
+            android:id="@+id/txtSoLuongNu" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="3"
+            android:padding="3dip" />
+        <TextView
+            android:text="Không xác định"
+            android:gravity="center"
+            android:padding="3dip" />
+        <TextView
+            android:text="Số lượng"
+            android:gravity="right"
+            android:padding="3dip"
+            android:id="@+id/txtSoLuongKXD" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text=""
+            android:padding="40dip" />
+        <Button
+            android:text="Quay về"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnQuayVe"
+            android:paddingLeft="6dip"
+            android:paddingTop="10dip" />
+        <TextView
+            android:text=""
+            android:padding="3dip" />
+    </TableRow>
+</TableLayout>
